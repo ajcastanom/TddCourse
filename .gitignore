@@ -26,6 +26,3 @@
 /.nb-gradle/
 
 bin/
-gradlew
-gradle/
-gradlew.bat

@@ -26,7 +26,7 @@ public class AccountServiceTest {
 	private AccountRepository accountRepository;
 
 	@Test
-	public void getAnAccountWithTwoTransactionsTest() {
+	public void getAnAccountWithTwoTransactions() {
 
 		// Arrange
 		Account expected = anAccount().with(aTransaction(), aTransaction().withAmount(5000000d)).build();
